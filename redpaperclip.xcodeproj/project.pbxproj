@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AC4D151A20AF0900402D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC4D141A20AF0900402D60 /* AppDelegate.swift */; };
+		04AC4D171A20AF0900402D60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AC4D161A20AF0900402D60 /* Images.xcassets */; };
+		04AC4D1A1A20AF0900402D60 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AC4D181A20AF0900402D60 /* MainMenu.xib */; };
+		04AC4D261A20AF0A00402D60 /* redpaperclipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC4D251A20AF0A00402D60 /* redpaperclipTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AC4D201A20AF0A00402D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AC4D071A20AF0900402D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AC4D0E1A20AF0900402D60;
+			remoteInfo = redpaperclip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AC4D0F1A20AF0900402D60 /* redpaperclip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redpaperclip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AC4D131A20AF0900402D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AC4D141A20AF0900402D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04AC4D161A20AF0900402D60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04AC4D191A20AF0900402D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		04AC4D1F1A20AF0A00402D60 /* redpaperclipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redpaperclipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AC4D241A20AF0A00402D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AC4D251A20AF0A00402D60 /* redpaperclipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redpaperclipTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AC4D0C1A20AF0900402D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AC4D1C1A20AF0A00402D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AC4D061A20AF0900402D60 = {
+			isa = PBXGroup;
+			children = (
+				04AC4D111A20AF0900402D60 /* redpaperclip */,
+				04AC4D221A20AF0A00402D60 /* redpaperclipTests */,
+				04AC4D101A20AF0900402D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AC4D101A20AF0900402D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AC4D0F1A20AF0900402D60 /* redpaperclip.app */,
+				04AC4D1F1A20AF0A00402D60 /* redpaperclipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AC4D111A20AF0900402D60 /* redpaperclip */ = {
+			isa = PBXGroup;
+			children = (
+				04AC4D141A20AF0900402D60 /* AppDelegate.swift */,
+				04AC4D161A20AF0900402D60 /* Images.xcassets */,
+				04AC4D181A20AF0900402D60 /* MainMenu.xib */,
+				04AC4D121A20AF0900402D60 /* Supporting Files */,
+			);
+			path = redpaperclip;
+			sourceTree = "<group>";
+		};
+		04AC4D121A20AF0900402D60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AC4D131A20AF0900402D60 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04AC4D221A20AF0A00402D60 /* redpaperclipTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AC4D251A20AF0A00402D60 /* redpaperclipTests.swift */,
+				04AC4D231A20AF0A00402D60 /* Supporting Files */,
+			);
+			path = redpaperclipTests;
+			sourceTree = "<group>";
+		};
+		04AC4D231A20AF0A00402D60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AC4D241A20AF0A00402D60 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AC4D0E1A20AF0900402D60 /* redpaperclip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AC4D291A20AF0A00402D60 /* Build configuration list for PBXNativeTarget "redpaperclip" */;
+			buildPhases = (
+				04AC4D0B1A20AF0900402D60 /* Sources */,
+				04AC4D0C1A20AF0900402D60 /* Frameworks */,
+				04AC4D0D1A20AF0900402D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redpaperclip;
+			productName = redpaperclip;
+			productReference = 04AC4D0F1A20AF0900402D60 /* redpaperclip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AC4D1E1A20AF0A00402D60 /* redpaperclipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AC4D2C1A20AF0A00402D60 /* Build configuration list for PBXNativeTarget "redpaperclipTests" */;
+			buildPhases = (
+				04AC4D1B1A20AF0A00402D60 /* Sources */,
+				04AC4D1C1A20AF0A00402D60 /* Frameworks */,
+				04AC4D1D1A20AF0A00402D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AC4D211A20AF0A00402D60 /* PBXTargetDependency */,
+			);
+			name = redpaperclipTests;
+			productName = redpaperclipTests;
+			productReference = 04AC4D1F1A20AF0A00402D60 /* redpaperclipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AC4D071A20AF0900402D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "James Laver";
+				TargetAttributes = {
+					04AC4D0E1A20AF0900402D60 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					04AC4D1E1A20AF0A00402D60 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 04AC4D0E1A20AF0900402D60;
+					};
+				};
+			};
+			buildConfigurationList = 04AC4D0A1A20AF0900402D60 /* Build configuration list for PBXProject "redpaperclip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AC4D061A20AF0900402D60;
+			productRefGroup = 04AC4D101A20AF0900402D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AC4D0E1A20AF0900402D60 /* redpaperclip */,
+				04AC4D1E1A20AF0A00402D60 /* redpaperclipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AC4D0D1A20AF0900402D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AC4D171A20AF0900402D60 /* Images.xcassets in Resources */,
+				04AC4D1A1A20AF0900402D60 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AC4D1D1A20AF0A00402D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AC4D0B1A20AF0900402D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AC4D151A20AF0900402D60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AC4D1B1A20AF0A00402D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AC4D261A20AF0A00402D60 /* redpaperclipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AC4D211A20AF0A00402D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AC4D0E1A20AF0900402D60 /* redpaperclip */;
+			targetProxy = 04AC4D201A20AF0A00402D60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04AC4D181A20AF0900402D60 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AC4D191A20AF0900402D60 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AC4D271A20AF0A00402D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AC4D281A20AF0A00402D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04AC4D2A1A20AF0A00402D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redpaperclip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04AC4D2B1A20AF0A00402D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redpaperclip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04AC4D2D1A20AF0A00402D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = redpaperclipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redpaperclip.app/Contents/MacOS/redpaperclip";
+			};
+			name = Debug;
+		};
+		04AC4D2E1A20AF0A00402D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = redpaperclipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redpaperclip.app/Contents/MacOS/redpaperclip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AC4D0A1A20AF0900402D60 /* Build configuration list for PBXProject "redpaperclip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AC4D271A20AF0A00402D60 /* Debug */,
+				04AC4D281A20AF0A00402D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AC4D291A20AF0A00402D60 /* Build configuration list for PBXNativeTarget "redpaperclip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AC4D2A1A20AF0A00402D60 /* Debug */,
+				04AC4D2B1A20AF0A00402D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04AC4D2C1A20AF0A00402D60 /* Build configuration list for PBXNativeTarget "redpaperclipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AC4D2D1A20AF0A00402D60 /* Debug */,
+				04AC4D2E1A20AF0A00402D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AC4D071A20AF0900402D60 /* Project object */;
+}
