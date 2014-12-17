@@ -16,10 +16,10 @@ vpath %.h include
 vpath %.dylib build
 vpath redpapercliptest build
 
-sources ::= $(patsubst src/%,%,$(wildcard src/*.c))
-objects ::= $(patsubst %.c,%.o,$(sources))
-debugobjects ::= $(patsubst %.c,%-debug.o,$(sources))
-testsources ::= $(wildcard t/*.c)
+sources := $(patsubst src/%,%,$(wildcard src/*.c))
+objects := $(patsubst %.c,%.o,$(sources))
+debugobjects := $(patsubst %.c,%-debug.o,$(sources))
+testsources := $(wildcard t/*.c)
 %-debug.o: %.c
 	$(CC) $(DEBUGCFLAGS) $^ -o build/$@
 %.o: $.c
@@ -47,7 +47,7 @@ vpath %.dylib build
 
 %.o: %.cpp
 	clang++ $(CPPFLAGS) -o build/$@ $^
-rpnow: core/linereader.o core/local.o core/parser.o core/commandrunner.o core/main.o
+rpnow: core/main.o core/CommandReader.o
 	ld $(LDFLAGS) -o $@ $^
 all: main.o
 # main.o:
