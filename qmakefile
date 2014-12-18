@@ -1,0 +1,9 @@
+CXXFLAGS = -std=c++1y -c -g -O0
+SOURCES += core/main.cpp \
+           core/CommandReader.cpp \
+           core/Interpreter.cpp \
+           qt/backend.cpp \
+           qt/glue.cpp
+HEADERS += redpaperclip.hpp
+TARGET = rpqt
+CONFIG += qt debug

@@ -1,11 +1,14 @@
 #include <err.h>
 #include <iostream>
 
-#include "redpaperclip/core/CommandReader.hpp"
-
+#include "redpaperclip/core.hpp"     
 
 using namespace redpaperclip::core;
 using namespace std;
+
+CommandId Command::simplify() {
+  return InvalidCmd;
+}
 
 //! Unescapes backslashed string and updates state on failure.
 void CommandReader::handle_escape(char c) {

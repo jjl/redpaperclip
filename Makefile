@@ -45,10 +45,13 @@ vpath %.cpp src
 vpath %.h include
 vpath %.dylib build
 
+build:
+	mkdir -p build/{core,qt}
 %.o: %.cpp
 	clang++ $(CPPFLAGS) -o build/$@ $^
-rpnow: core/main.o core/CommandReader.o
+rpnow: core/main.o core/CommandReader.o core/Interpreter.o qt/backend.o qt/glue.o
 	ld $(LDFLAGS) -o $@ $^
+rp: rpnow build
 all: main.o
 # main.o:
 # 	gcc

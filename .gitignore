@@ -1,3 +1,5 @@
+rpqt.app
+.*
 *.o
 html/
 rpnow
